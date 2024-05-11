@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Il cinque maggio. Ode</title>
+            <author xml:id="AM">Alessandro Manzoni</author>
+            <respStmt>
+               <resp>Codifica</resp>
+               <persName xml:id="BN">Beatrice Nava</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione</resp>
+               <persName xml:id="FF">Francesca Giuseppa Ferraro</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Manzoni Online: carte, libri, edizioni, strumenti;</publisher>
+            <pubPlace>Università di Bologna</pubPlace>
+            <date>2021</date>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico.
+                  Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Inni sacri e odi civili</title>
+               <title type="parte">Il cinque maggio</title>
+               <author ref="#AM">Manzoni, Alessandro</author>
+               <editor xml:id="PF">Pierantonio Frare</editor>
+               <publisher>Centro Nazionale Studi Manzoniani</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>2017</date>
+               <note>In: Edizione nazionale ed europea delle opere di Alessandro Manzoni: testi
+                  criticamente riveduti e commentati, diretta da Giancarlo Vigorelli; Milano: Centro
+                  nazionale studi manzoniani; vol.1</note>
+               <idno type="ISBN">9788831906005</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>La codifica dei testi manzoniani per la piattaforma ManzoniOnline si inserisce
+               nell'ambito del progetto PRIN 2015 FN4ZSN</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>IL CINQUE MAGGIO<lb/> ODE</head>
+            <lg>
+               <l>Ei fu. Siccome immobile,</l>
+               <l>dato il mortal sospiro,</l>
+               <l>stette la spoglia immemore</l>
+               <l>orba di tanto spiro,</l>
+               <l>così percossa, attonita</l>
+               <l>la terra al nunzio sta,</l>
+            </lg>
+            <lg>
+               <l>muta pensando all'ultima</l>
+               <l>ora dell'uom fatale;</l>
+               <l>né sa quando una simile</l>
+               <l>orma di piè mortale</l>
+               <l>la sua cruenta polvere</l>
+               <l>a calpestar verrà.</l>
+            </lg>
+            <lg>
+               <l>Lui folgorante in solio</l>
+               <l>vide il mio genio e tacque;</l>
+               <l>quando, con vece assidua,</l>
+               <l>cadde, risorse e giacque,</l>
+               <l>di mille voci al sonito</l>
+               <l>mista la sua non ha:</l>
+            </lg>
+            <lg>
+               <l>vergin di servo encomio</l>
+               <l>e di codardo oltraggio,</l>
+               <l>sorge or commosso al subito</l>
+               <l>sparir di tanto raggio;</l>
+               <l>e scioglie all'urna un cantico</l>
+               <l>che forse non morrà.</l>
+            </lg>
+            <lg>
+               <l>Dall'Alpi alle Piramidi,</l>
+               <l>dal Manzanarre al Reno,</l>
+               <l>di quel securo il fulmine</l>
+               <l>tenea dietro al baleno;</l>
+               <l>scoppiò da Scilla al Tanai,</l>
+               <l>dall'uno all'altro mar.</l>
+            </lg>
+            <lg>
+               <l>Fu vera gloria? Ai posteri</l>
+               <l>l'ardua sentenza; nui</l>
+               <l>chiniam la fronte al Massimo</l>
+               <l>Fattor, che volle in lui</l>
+               <l>del creator suo spirito</l>
+               <l>più vasta orma stampar.</l>
+            </lg>
+            <lg>
+               <l>La procellosa e trepida</l>
+               <l>gioia d'un gran disegno,</l>
+               <l>l'ansia d'un cor che indocile</l>
+               <l>serve, pensando al regno;</l>
+               <l>e il giunge, e tiene un premio</l>
+               <l>ch'era follia sperar;</l>
+            </lg>
+            <lg>
+               <l>tutto ei provò: la gloria</l>
+               <l>maggior dopo il periglio,</l>
+               <l>la fuga e la vittoria,</l>
+               <l>la reggia e il tristo esiglio:</l>
+               <l>due volte nella polvere,</l>
+               <l>due volte sull'altar.</l>
+            </lg>
+            <lg>
+               <l>Ei si nomò: due secoli,</l>
+               <l>l'un contro l'altro armato,</l>
+               <l>sommessi a lui si volsero,</l>
+               <l>come aspettando il fato;</l>
+               <l>ei fe' silenzio, ed arbitro</l>
+               <l>s'assise in mezzo a lor.</l>
+            </lg>
+            <lg>
+               <l>E sparve, e i dì nell'ozio</l>
+               <l>chiuse in sì breve sponda,</l>
+               <l>segno d'immensa invidia</l>
+               <l>e di pietà profonda,</l>
+               <l>d'inestinguibil odio</l>
+               <l>e d'indomato amor.</l>
+            </lg>
+            <lg>
+               <l>Come sul capo al naufrago</l>
+               <l>l'onda s'avvolve e pesa,</l>
+               <l>l'onda su cui del misero,</l>
+               <l>alta pur dianzi e tesa,</l>
+               <l>scorrea la vista a scernere</l>
+               <l>prode remote invan;</l>
+            </lg>
+            <lg>
+               <l>tal su quell'alma il cumulo</l>
+               <l>delle memorie scese!</l>
+               <l>oh quante volte ai posteri</l>
+               <l>narrar sé stesso imprese,</l>
+               <l>e sull'eterne pagine</l>
+               <l>cadde la stanca man!</l>
+            </lg>
+            <lg>
+               <l>oh quante volte, al tacito</l>
+               <l>morir d'un giorno inerte,</l>
+               <l>chinati i rai fulminei,</l>
+               <l>le braccia al sen conserte,</l>
+               <l>stette, e dei dì che furono</l>
+               <l>l'assalse il sovvenir!</l>
+            </lg>
+            <lg>
+               <l>E ripensò le mobili</l>
+               <l>tende, e i percossi valli,</l>
+               <l>e il lampo de' manipoli,</l>
+               <l>e l'onda dei cavalli,</l>
+               <l>e il concitato imperio,</l>
+               <l>e il celere ubbidir.</l>
+            </lg>
+            <lg>
+               <l>Ahi! forse a tanto strazio</l>
+               <l>cadde lo spirto anelo,</l>
+               <l>e disperò; ma valida</l>
+               <l>venne una man dal cielo,</l>
+               <l>e in più spirabil aere</l>
+               <l>pietosa il trasportò;</l>
+            </lg>
+            <lg>
+               <l>e l'avviò, pei floridi</l>
+               <l>sentier della speranza,</l>
+               <l>ai campi eterni, al premio</l>
+               <l>che i desideri avanza,</l>
+               <l>dov'è silenzio e tenebre</l>
+               <l>la gloria che passò.</l>
+            </lg>
+            <lg>
+               <l>Bella Immortal! benefica</l>
+               <l>fede ai trionfi avvezza!</l>
+               <l>scrivi ancor questo, allegrati;</l>
+               <l>ché più superba altezza</l>
+               <l>al disonor del Golgota</l>
+               <l>giammai non si chinò.</l>
+            </lg>
+            <lg>
+               <l>Tu dalle stanche ceneri</l>
+               <l>sperdi ogni ria parola:</l>
+               <l>il Dio che atterra e suscita,</l>
+               <l>che affanna e che consola,</l>
+               <l>sulla deserta coltrice</l>
+               <l>accanto a lui posò.</l>
+            </lg>
+      </body>
+   </text>
+</TEI>

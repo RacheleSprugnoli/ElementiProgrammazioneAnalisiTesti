@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Della moralità delle opere tragiche</title>
+            <author xml:id="AM">Alessandro Manzoni</author>
+            <respStmt>
+               <resp>Codifica</resp>
+               <persName xml:id="MS">Marika Schillaci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione</resp>
+               <persName ref="BN">Beatrice Nava</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Manzoni Online: carte, libri, edizioni, strumenti</publisher>
+            <pubPlace>Università di Bologna</pubPlace>
+            <date>2022</date>
+            <availability>
+               <p>Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso
+                  commerciale è vietato.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Scritti linguistici e letterari</title>
+               <title type="parte">Della moralità delle opere tragiche.</title>
+               <author ref="#AM">Alessandro Manzoni</author>
+               <editor xml:id="CR">Carla Riccardi</editor>
+               <editor xml:id="BT">Biancamaria Travi</editor>
+               <publisher>Mondadori</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>1991</date>
+               <note>In: Tutte le opere di Alessandro Manzoni, a cura di Alberto Chiari e Fausto
+                  Ghisalberti, vol. 5, 3, Milano, Mondadori, 1991.</note>
+            </bibl>
+         </sourceDesc>
+         <sourceDesc>
+            <listBibl>
+               <bibl xml:id="heraclius"
+                  sameAs="https://www.alessandromanzoni.org/biblioteca/esemplari/6365">Pier
+                  Corneille, Heraclius, in Oeuvres de P. Corneille, avec le commentaire de Voltaire
+                  [...], Paris, de l'imprimerie de P. Didot l'ainé, 1801.</bibl>
+               <bibl xml:id="guglielmotell">Friedrich Schiller, Guglielmo Tell.</bibl>
+               <bibl xml:id="ifigenia">Euripide, Ifigenia.</bibl>
+               <bibl xml:id="librodeisalmi">Bibbia, libro dei salmi.</bibl>
+               <bibl xml:id="discorsoapologetico"
+                  sameAs="https://www.alessandromanzoni.org/biblioteca/esemplari/7417">Maffei,
+                  Scipione, De' teatri antichi, e moderni trattato [...]. Verona, presso Agostino
+                  Carattoni, 1753.</bibl>
+               <bibl xml:id="traitedelacomedie">Nicole Pierre,Traité de la comédie.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>La codifica dei testi manzoniani per la piattaforma ManzoniOnline si inserisce
+               nell'ambito del progetto PRIN 2015 FN4ZSN</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName xml:id="bossuet" sameAs="http://www.isni.org/isni/0000000120984244">
+                     Bossuet, Jacques Bénigne</persName>
+                  <persName xml:id="nicole" sameAs="http://www.isni.org/isni/0000000122796589">
+                     Nicole, Pierre </persName>
+                  <persName xml:id="rousseau" sameAs="http://www.isni.org/isni/0000000121451116">
+                     Rousseau, Jean-Jacques </persName>
+                  <persName xml:id="shakespeare" sameAs="https://isni.org/isni/0000000121032683">
+                     Shakespeare, William </persName>
+                  <persName xml:id="tasso" sameAs="http://www.isni.org/isni/000000012118517X">
+                     Tasso, Torquato </persName>
+                  <persName xml:id="euripide" sameAs="https://isni.org/isni/0000000121382034">
+                     Euripide</persName>
+                  <persName xml:id="schiller" sameAs="https://isni.org/isni/0000000121032691">
+                     Schiller, Johann Christoph Friedrich </persName>
+                  <persName xml:id="dalembert" sameAs="https://isni.org/isni/0000000121308926">
+                     D'Alembert, Jean Baptiste Le Rond </persName>
+                  <persName xml:id="marmontel" sameAs="https://isni.org/isni/0000000121192513">
+                     Marmontel,Jean-François </persName>
+                  <persName xml:id="racine" sameAs="http://www.isni.org/isni/0000000123212338"
+                     >Racine, Jean </persName>
+                  <persName xml:id="scipionemaffei" sameAs="https://isni.org/isni/0000000110278661"
+                     >Maffei, Scipione</persName>
+                  <persName xml:id="montesquieu" sameAs="http://www.isni.org/isni/0000000120957940">
+                     Montesquieu, Charles-Louis de Secondat, baron de la Brède et de</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="sezione" n="1" xml:id="sezione1">
+            <head>Traccia del Discorso sulla Moralità delle Opere Drammatiche </head>
+            <p><milestone unit="comma" n="1"/> V'ha due modi di considerare le quistioni morali:</p>
+            <p>Prescindendo dal Vangelo.</p>
+            <p>Ponendolo per fondamento.</p>
+            <p>Convinto della verità di esso deggio seguire questa seconda via.</p>
+            <p>Assurdità della prima.</p>
+            <p>Impugnatori più noti del Teatro – <persName ref="#bossuet">Bossuet</persName>,
+                  <persName ref="#nicole"/> Nicole,<persName ref="#rousseau"/> J.J. Rousseau. </p>
+            <p>I due primi cristianamente, in alcune parti il terzo, e come.</p>
+            <p>Le loro obbjezioni si dividono in due parti.</p>
+            <p>Opere Drammatiche. – Teatro.</p>
+            <p>Si prescinde dalla seconda quistione.</p>
+            <p>Le obbjezioni contro il Dramma si risolvono in questa:</p>
+            <p>Che si eccitano le passioni – e che non si può esser poeta drammatico altrimenti.</p>
+            <p>Questo giudizio è nato dal non esaminare che Drammatici francesi.</p>
+            <p>Essi sono tali; ma si può e si deve interessare altrimenti.</p>
+            <p>Essi fanno simpatizzare il lettore colle passioni dei personaggi, e lo fanno
+               complice.</p>
+            <p>Si può farlo sentire separatamente dai personaggi e dei personaggi, e farlo
+               giudice.</p>
+            <p>Esempio insigne <persName ref="#shakespeare"/>Shakespear.</p>
+            <p><milestone unit="comma" n="2"/> Varj modi di immoralità drammatiche.</p>
+            <p> 1.°<hi rend="sup">o</hi> Il già detto.</p>
+            <p> 2.° <hi rend="sup">o</hi> Noi abbiamo una inclinazione a seguire più il nostro
+               giudizio che le leggi divine ed umane.</p>
+            <p>Quando ci sembri che vi sia più bene o minor male a farlo, siamo più contenti perchè
+               combiniamo la coscienza col soddisfacimento dell'orgoglio. Quindi tutti i casi
+               trovati per mostrare come talvolta sia lecito mentire. I poeti Drammatici hanno
+               assecondata questa inclinazione rappresentando casi in cui mille inconvenienti si
+               trovino nella esecuzione della legge, e mille vantaggi e mille sentimenti virtuosi
+               nella trasgressione. Esempj.<bibl corresp="#heraclius">Heraclius.</bibl>
+               <bibl corresp="#tell">Tell.</bibl>.</p>
+            <p><milestone unit="comma" n="3"/>Foss'anche giusto quello che si propone in questi
+               Drammi è pericoloso è inutile: perchè non si deve temere che gli uomini pecchino di
+               troppo scrupolo. Falso poi perchè noi non dobbiamo render conto delle conseguenze
+               delle nostre azioni, ma dei motivi, perchè quelle non sono in mano nostra, ma questi.
+               Noi non prevediamo quello che nascerà: forse evitando un male colla infrazione male
+               di cui non saremmo colpevoli, ne produciamo mille impreveduti, e che verranno per
+               nostra volontà. Chi ha fatto la legge immutabile, sapeva le conseguenze, e non avendo
+               fatte eccezioni, non le possiamo far noi.</p>
+            <p>
+               <milestone unit="comma" n="4"/>3.° Modo d'immoralità. Rappresentare i beni e i mali
+               con quel falso aspetto col quale siamo già inclinati a considerarli. È noto che
+               l'uomo va d'illusione in illusione cercando la felicità. Disingannato d'una cerca
+               l'altra, abbandona, conosce, e disprezza una vanità, e le contrappone un'altra vanità
+               come realtà. Nella vita reale non possiamo trattenerci a lungo in questo errore sopra
+               un oggetto particolare, perchè la vanità di esso si manifesta da sè. <milestone
+                  unit="comma" n="5"/>Ma i poeti ci trasportano a supporre la realtà del godimento
+               negli altri. Trovano in noi la disposizione a questo inganno, perchè riconosciamo in
+               noi la falsità, ma per la inclinazione a supporre beni reali quelli che non abbiamo,
+               crediamo felici quegli che li possedono. Ci rappresentano uomini correnti dietro un
+               oggetto e ci sembra che saranno <hi rend="italic"> compiutamente</hi> felici nel
+               possederlo. L'animo nostro non analizza ne distingue questi sentimenti ma gli prova.
+               Esempj oltre i francesi, il Pastore del <persName ref="#tasso"/>Tasso e in
+               opposizione il Vecchio di <persName ref="#euripide"> Euripide</persName> nella <bibl
+                  corresp="#ifigenia">Ifigenia.</bibl>
+               <note place="bottom"> Il peggio si è che anche i poeti lirici ne sono pieni</note> –
+                  <milestone unit="comma" n="6"/>Opinione ricantata e falsa: che il poeta per
+               interessare deve movere le passioni. Se fosse così sarebbe da proscriversi la poesia.
+               – Ma non è così. La rappresentazione delle passioni che non eccitano simpatia, ma <hi
+                  rend="italic">riflessione sentita</hi> è più poetica d'ogni altra.</p>
+            <p>
+               <milestone unit="comma" n="7"/>Pensare ben bene e dichiarare questa risposta. – Una
+               prova di questo si è che le Tragedie di lieto fine interessano meno. Finchè mi
+               rappresentate gli uomini anelanti ad uno scopo finito io sento con essi per la
+                  disposiz.<hi rend="sup">e</hi> sopraddetta, ottenuto che l'hanno, benchè io non
+               rifletta alla vanità di esso, pure vi perdo ogni interesse, per pensare ad altro;
+               poichè noi viviamo nell'avvenire, cioè nella speranza. E questo è giusto e vero: ma
+               ci sono speranze veraci e speranze fallaci. Ora il poeta non deve trattenerci in
+               queste, ma condurci alle altre. Altrimenti è poeta immorale, quindi superficiale.
+               Quando io leggendo versi penso più in là del Poeta, e contra quello che ha detto il
+               poeta, l'effetto è tolto, ed il lettore è più poeta di lui. <milestone unit="comma"
+                  n="8"/>Si è accennato che le obbjezioni dei Moralisti suddetti pigliano di mira le
+               Opere e il Teatro. – Esposizione succinta della seconda quistione. Si prescinde
+               assolutamente da essa – Quelli che lo credono utile errano disapprovando i Moralisti
+               Cristiani che ne dissuadono. Essi lo credono utile come rimedio, riflettano che i
+                  Moral.<hi rend="sup">i</hi> Crist.<hi rend="sup">i</hi> insegnano a farne senza a
+               quelli che persuadono ad astenersene – Apologo del Medico.</p>
+            <p>
+               <milestone unit="comma" n="9"/>Nella Scena prima dell'atto 4° del <bibl
+                  corresp="#guglielmotell">Gugliemo Tell,</bibl> vi è un esempio del pericolo di far
+               partecipare lo spettatore alla passione del personaggio, tanto più che questa
+               passione sembra giusta mentre è ira contra uno scellerato. Un pescatore osserva con
+               un suo figliuoletto la barca dov'è Gessler con Tell agitata dai venti: Giudizj di
+               Dio! Sì è desso, il Governatore che là è tratto. Egli naviga là, e conduce seco il
+               suo delitto. La mano del vendicatore lo ha bentosto ritrovato: ora egli riconosce un
+               potente Signore sopra di sè. Queste onde non... Queste rupi non piegano le loro teste
+               dinnanzi al suo cappello. E aggiunge: O Fanciullo non pregare, non istrapparlo dal
+               braccio del Giudice. Il fanciullo: Io non prego pel Governatore, io prego per Tell
+               che è nella barca con lui.</p>
+            <p><milestone unit="comma" n="10"/>Questo sentimento orribile è espresso senza
+               disapprovazione: nè io voglio credere che uscisse dal cuore di <persName
+                  ref="#schiller">Schiller</persName>, ma egli avrà voluto rappresentare al vivo
+               l'abbominio di quegli uomini per Gessler. Ma egli ha errato mettendosi a rischio di
+               far sentire lo spettatore come il suo personaggio. <milestone unit="comma" n="11"
+               />Del resto mi sembra, che poich'egli ha immaginato di far pregare il fanciullo, ha
+               perduto l'occasione di una scena bellissima. Se il Padre invece (il che è in natura
+               d'un uomo pio e retto) dicesse al figlio di pregare anche per Gessler che commozione
+               non ecciterebbe? Quanti sentimenti non risveglierebbe di quella Religione che insegna
+               a chi l'ascolta di pregare per Gessler e per Tell, per l'oppresso e per l'oppressore,
+               a riguardare gli uomini i più scellerati come creati anch'essi per la virtù, come
+               capaci di emendarsi e di seguirla, e sè stesso come capace dei più grandi errori
+               qualora Dio lo abbandoni, che insegna a riguardar tutti gli uomini come fratelli e se
+               gl’iniqui vogliono rompere questo santo vincolo ci impone di tenerci stretti a loro
+               con quella carità che ha per fondamento non il merito loro ma i precetti e gli esempj
+               di Gesù Cristo.</p>
+            <p>
+               <milestone unit="comma" n="12"/> Quanto più Gessler è stato dipinto scellerato più
+               pericoloso è questo sentimento perchè lo spettatore è disposto a riceverlo. Certo v’è
+               una simpatia in ciò, ma dev'egli il poeta secondare questa inclinazione nostra? No
+               certamente, e se il diletto è il fine della poesia, io mi immagino che dall'aver
+               vinto questo impeto d'odio e dall'avere accolti in sè i sentimenti sublimi che ho
+               accennato poco sopra ne debba nascere un vivo, soave, ed alto piacere, e questo deve
+               il poeta trasfondere allo spettatore. Questi può avere piaceri viziosi e piaceri
+               virtuosi: i secondi sono i più poetici.</p>
+            <epigraph>
+               <l xml:lang="lat">
+                  <quote source="librodeisalmi">Satiabor cum apparuerit gloria tua.</quote></l>
+               <bibl corresp="#librodeisalmi">Sal. XVI</bibl>
+            </epigraph>
+         </div>
+         <div type="sezione" n="2" xml:id="sezione2">
+            <head>Dello scopo morale e della perfezione estetica della Tragedia</head>
+            <p>Distinzione di bello poetico e di vero morale, assurda.</p>
+            <p>Punto dove coincidono questi due attributi in un componimento dell'arte.</p>
+            <p>La Verità, la quale è sommamente piacevole, e sommamente perfezionatrice.</p>
+            <p>Verità nella rappresentazione dei fatti dell'animo. Ciò che è fatti, ciò che
+               dovrebb'essere conati, desiderj.</p>
+            <p>Verità nell'eccitamento degli affetti. Simpatia al bene.</p>
+            <p>Verisimiglianza mezzo unico per arrivare a queste due. Verità storica tipo della
+               verisimiglianza.</p>
+         </div>
+         <div type="sezione" n="3" xml:id="sezione3">
+            <head>Dello Scopo Morale della Tragedia Considerato nei suoi rapporti colla Perfezione
+               Estetica<lb/> <hi rend="italic">Capitolo I. Prima redazione.</hi></head>
+            <p><milestone unit="comma" n="1"/>Nella questione se il teatro sia utile o dannoso ai
+               costumi è avvenuto un fatto non unico ma osservabile ed è che essendo essa stata
+               ventilata più volte, l'opinione dei più, e la pratica sieno rimaste favorevoli al
+               teatro, e nello stesso tempo fra i libri che si sono scritti pro e contro non duri
+               memoria che di quelli che vogliono provare la sentenza contraria. Uno scritto
+               apologetico rinomato e che si ricordi come opere di morale profonda e di cui si dica:
+               questo ha sciolte le difficoltà degli avversarj non v'è ch'io sappia; ma chi non
+               conosce almeno di nome le opere che contro il Teatro scrissero in Francia due grandi
+               uomini ed un uomo di grandi talenti voglio dire <persName ref="#nicole">
+                  Nicole,</persName>
+               <persName ref="#bossuet">Bossuet,</persName> e <persName ref="#rousseau">Giangiacomo
+                  Rousseau?</persName>
+               <milestone unit="comma" n="2"/>Non parlo degli italiani perchè scrittori che sieno
+               nel discutere questa materia, saliti a principj un po' reconditi di filosofia morale
+               nè io ne ho letti nè la fama mi ha fatto avvertito di alcuno di essi, nè ch'io sappia
+               alcuno v'è fra essi che ricorra al pensiero quando entra in campo questa quistione,
+               come avviene dei Francesi soprannominati. <milestone unit="comma" n="3"/>Nè sarò
+               credo accusato del trascurare il <bibl corresp="#discorsoapologetico">Discorso
+                  Apologetico</bibl> del Marchese <persName ref="#scipionemaffei">Maffei</persName>
+               da chi l'abbia letto, poichè è impossibile di non sentire quanto egli sia lontano
+               dall'aver veduto in essa quegli importantissimi argomenti di considerazioni morali
+               che vi hanno veduto i Francesi. L'ultimo di questi venne in tempi in cui nessuno per
+               così dire era più ammesso a porre in dubbio l'utilità dei Teatri. Egli pretese
+               dimostrarli dannosi, e la scelta del suo tema fu attribuita al suo genio pei
+               paradossi. Eppure l'opera sua acquistò tosto una fama che conserva ancora, e delle
+               confutazioni di <persName ref="#dalembert">d'Alembert</persName> e di <persName
+                  ref="#marmontel">Marmontel</persName> non si parla ormai più. <milestone
+                  unit="comma" n="4"/>Io non pretendo assegnare i motivi di questa contraddizione
+               del pubblico nel dar vinta la causa ad una parte, e lodare gli avvocati dell'altra,
+               ma l'ho osservato soltanto per dedurne che le obbiezioni devono essere certamente
+               importanti, e devono aver qualche cosa di vero e profondo. Oso non pertanto
+               ripigliare dopo di essi lo stesso argomento perchè mi sembra che in alcune parti essi
+               siensi ingannati, e per ciò fare andrò dividendo la questione che essi hanno trattata
+               per così dire in un corpo e riducendola ad un solo punto. <milestone unit="comma"
+                  n="5"/>Essa si distingue dapprima in due parti le quali hanno essi egualmente
+               condannate, e sono Il Teatro ossia lo spettacolo, e le opere Drammatiche considerate
+               come scritti, come poemi. Dalla prima parte della quistione io intendo prescindere
+               affatto. La seconda si suddivide in Poesia Comica e Tragica; <milestone unit="comma"
+                  n="6"/>delle quali pure io scelgo a trattare soltanto della seconda. In questa
+               essi hanno considerate due cose: il modo con cui è stata trattata, e lo hanno detto
+               immorale provandolo con molti esempj: il modo possibile di trattarla; e hanno detto
+               dover essere naturalmente immorale poichè il fine che l'arte vi si propone cioè di
+               interessare non si può ottenere che a discapito della morale essere quindi il poeta
+               posto fra la tragedia fredda e quindi viziosa secondo l'arte, e quella dannosa al
+               costume; anzi l'immoralità cresceva a proporzione della perfezione poetica.</p>
+            <p><milestone unit="comma" n="7"/>Quanto al fatto è da confessare che la più parte degli
+               esempj da essi trascelti per dimostrarli immorali il sono veramente: ma qui si deve
+               avvertire che essi li tolsero da una sola scuola Drammatica, la sola forse che essi
+               credessero possibile; e che anche in quella stessa scuola si possono trovare esempj
+               che stuzzano l'applicazione dei loro principj. <milestone unit="comma" n="8"/> Quanto
+               al possibile sarà io credo non difficile il provare che essi hanno da alcuni
+               particolari cavata una conseguenza generale, e che non solo può darsi tragedia esente
+               dal principio d'immoralità da essi denotato come inevitabile, ma che ve n'è e ve
+               n'era al tempo loro di tali leggendo le quali avrebbero potuto pienamente
+               disingannarsi. <milestone unit="comma" n="9"/>A me sembra che questi scrittori
+               riducano la necessità della immoralità del Dramma ad un principio solo; io lo esporrò
+               colle parole loro, quindi cercherò di mostrare che esso non solo non è parte
+               costitutiva del Dramma, ma che può esserne escluso, che ne è escluso in tanti Drammi,
+               e che deve esserlo. <milestone unit="comma" n="10"/>Verrò poi a dimostrare altri
+               principj d'immoralità comuni nelle Tragedie moderne, e i quali non sono finora ch'io
+               sappia stati osservati, e cercherò di provare che essi pure non sono essenziali al
+               Dramma, che esso è più perfetto se ne va privo, e che l'essere essi così comuni è
+               colpa non d'altri che dei poeti.</p>
+            <p>
+               <milestone unit="comma" n="11"/>Nel che sé io trovassi la verità otterrei due fini,
+               di indicare a chi si occupa di questi studj gli scogli d'immoralità più comuni e i
+               modi di evitarli; e di segnarli ai lettori di quelle opere tanto divolgate perchè non
+               v'inciampino. Nè agli uni nè agli altri io pretendo far da maestro, ma non è
+               impossibile che essendomi io molto tempo fermato in queste considerazioni e avendole
+               lette e studiate a questo fine vi abbia scoperto cose che possono essere sfuggite ad
+               occhi più acuti dei miei.</p>
+            <lb/>
+            <p><milestone unit="comma" n="12"/> Il motivo per cui sembra ai tre scrittori suddetti
+               essere il Dramma di suo naturale immorale si è che il suo scopo è, a loro dire, di
+               eccitare le passioni e di assecondarle.</p>
+            <p>
+               <milestone unit="comma" n="13"/>
+               <quote>
+                  <foreign xml:lang="fra">"Le but même de la comédie engage les poëtes a ne
+                     représenter que des passions vicieuses. Car le fin qu'il se proposent est de
+                     plaire aux spectateurs; et il ne leur sauraient plaire qu'en mettant dans la
+                     bouche de leurs acteurs etc. C'est ce qui fait qu'il n'y a rien de plus
+                     pernicieux que la morale poétique et romanesque parceque ce n'est qu'un amas de
+                     fausses opinions qui naissent de la concupiscence,<hi rend="italic"> et qui ne
+                        sont agréables qu'en ce qu'elles flattent </hi> les inclinations corrompues
+                     des lecteurs ou des spectateurs...</foreign>
+               </quote>
+            </p>
+            <p>
+               <quote source="#traitedelacomedie">
+                  <foreign xml:lang="fra">Ce qui rend encore plus dangereuse l'image des passions
+                     que les comédies nous proposent, c'est que les poëtes <hi rend="italic"> pour
+                        les rendre agréables </hi> sont obligés non seulement de les représenter
+                     d'une manière fort vive etc.”</foreign>
+               </quote>
+               <bibl corresp="traitedelacomedie">(Nicole Traité de la comédie)</bibl>.</p>
+            <p><milestone unit="comma" n="14"/>Ecco che dice <persName ref="#nicole">Nicole
+               </persName> contro il Dramma in generale benchè pare ch'egli si contenti quasi di
+               condannare quegli che al suo tempo si conoscevano si leggevano e si recitavano in
+               Francia, senza cercare diligentemente se potrebbe darsi un dramma onesto. Ma contro
+               questa ipotesi si leva apertamente il <persName ref="#bossuet">Bossuet</persName> –
+               udiamolo: <quote><foreign xml:lang="fra">“Le premier principe sur lequel agissent les
+                     Poëtes Tragiques ei Comiques c'est qu'il faut intéresser le Spectateur, et si
+                     l'Auteur ou l'Acteur d'une Tragédie ne le sçait pas emouvoir, et le transporter
+                     de la passion qu’il veut exprimer, où tombe-t-il si ce n'est dans le froid,
+                     dans l'ennuyeux, dans le ridicule selon les règles des maîtres de
+                     l'art?”</foreign>
+               </quote></p>
+         </div>
+         <div type="sezione" n="4" xml:id="sezione4">
+            <head>Della Moralità delle Opere Tragiche<lb/> <hi rend="italic">Capitolo I. Seconda redazione.</hi><lb/> Di
+               alcuni oppugnatori del teatro </head>
+            <p><milestone unit="comma" n="1"/>Nella questione se il teatro sia utile o dannoso ai
+               costumi è avvenuto un fatto non unico ma osservabile, ed è: che essendo essa stata
+               ventilata più volte, l'opinione dei più e la pratica sieno rimaste favorevoli al
+               teatro, e nello stesso tempo, non duri la memoria che degli scritti che lo impugnano.
+                  <milestone unit="comma" n="2"/>Un'opera apologetica che si citi come libro di
+               morale profonda, e di cui si dica: questa ha sciolte le difficoltà degli oppositori,
+               non v'è ch'io sappia; ma chi non conosce almeno di nome le operette che contro il
+               Teatro scrissero in Francia due grandi scrittori, ed un uomo di grandi talenti,
+               voglio dire <persName ref="#nicole">Nicole,</persName>
+               <persName ref="#bossuet">Bossuet</persName>, e <persName ref="#rousseau">G. G.
+                  Rousseau</persName>? <milestone unit="comma" n="3"/>Non parlo degli Italiani,
+               perchè scrittori che sieno nel discutere questa materia, saliti a principj un po'
+               reconditi di Filosofia morale, nè io mi sono abbattuto a trovarne, nè la fama mi ha
+               avvertito esservene alcuno. <milestone unit="comma" n="4"/> Da chi abbia letto il
+                  <bibl corresp="#discorsoapologetico">Discorso</bibl> del Marchese <persName
+                  ref="#scipionemaffei">Maffei</persName> sui teatri antichi e moderni non mi sarà
+               spero imputato a colpa il non tenerne conto, poichè è impossibile non sentire quanto
+               egli sia lontano dall'aver veduto in questa discussione gli importanti argomenti di
+               considerazioni morali che vi hanno veduto i Francesi sunnominati. Fa veramente
+               stupore il trovare, in quella dissertazione tanto poveretta di pensieri quanto
+               ridondante di una certa erudizione che l'autor suo aveva lette le riflessioni di
+                  <persName ref="#bossuet">Bossuet</persName>, poichè le cita, e non si sa come
+               dalla lettura di quel libro egli sia disceso a ripigliare la materia che ivi è
+               trattata con osservazioni tolte dall'intimo del cuore umano e con principj alti e
+               generali, per trattarla poi tanto superficialmente.</p>
+            <p>
+               <milestone unit="comma" n="5"/>Dopo il <persName ref="#nicole">Nicole</persName> e il
+                  <persName ref="#bossuet">Bossuet</persName> la questione non fu per molti anni più
+               suscitata, ch'io sappia, se non dai teologi di professione, ma nelle materie morali
+               specialmente le opinioni dei teologi non divenivano quasi più soggetto di questione,
+               poichè cominciava a prevalere quella massima che si è poi tanto diffusa essere la
+               Teologia una scienza da se che ha le sue opinioni, le quali non servono per lo più
+               che ad entrare nel corpo di essa scienza e non a far parte della sapienza civile e
+               norma della condotta nei casi della vita; quando un uomo ch'era tutt'altro che
+               Teologo pubblicò la famosa lettera a <persName ref="#dalembert">d'Alembert</persName>
+               contro il Teatro e richiamò per qualche tempo l'attenzione della colta Europa su
+               questo argomento.</p>
+            <p>
+               <milestone unit="comma" n="6"/>L'opinione che <persName ref="#rousseau"
+                  >Rousseau</persName> sostenne venne attribuita al suo genio pei paradossi: eppure
+               la sua lettera è ancora celebre, e letta, e le confutazioni di <persName
+                  ref="#dalembert">D'Alembert</persName> e di <persName ref="#marmontel"
+                  >Marmontel</persName>, sono quasi dimenticate, per non parlar di quelle che lo
+               furono al lor nascere. La lettera di <persName ref="#rousseau">Rousseau</persName>
+               che per la più parte è composta di ragioni tolte dalla operetta di <persName
+                  ref="#bossuet">Bossuet</persName> di cui non vi è mai fatta menzione, ebbe tosto
+               una fama più estesa e più alta di questa: e questa superiorità di fama le è venuta,
+               s'io non m'inganno, da quello appunto che la rende inferiore all'altra in vero
+                  merito.<milestone unit="comma" n="7"/>
+               <persName ref="#bossuet">Bossuet</persName>, in questo scritto, come in tutti gli
+               altri, cava i suoi argomenti dalla rivelazione, considera tutta la natura dell’uomo
+               in rapporto con essa, subordina i mezzi allo scopo, la vita presente alla eterna, e
+               stimando l'una e l'altra secondo il valor loro; <persName ref="#rousseau"
+                  >Rousseau</persName> non considera che il bene o il male nel tempo, e benchè
+               voglia tutto ridurre alla morale, spoglia questa della sua vera importanza non
+               riducendola a Dio che ne è il principio. Non è quindi da stupirsi se conseguenze che
+               hanno del vero in se fossero più gradite all'intelletto, e meno avverse al senso in
+               un autore che le presenta isolate, e stanti da se come principj e aventi in se la
+               loro ragione e la loro sanzione, e che quindi possono essere tranquillamente
+               abbandonate quand'anche sembrino incontrastabili, che in chi le cava e le mostra
+               unite ad un corpo di dottrina e di morale che il mondo non vuol ricevere, o che vuol
+               dimenticare.</p>
+            <lb/>
+
+            <p><milestone unit="comma" n="9"/>Io oso qui ripigliare una parte di questa quistione
+               nella quale mi sembra che i sunnominati scrittori si sieno ingannati. La quistione si
+               distingue principalmente in due punti, e sono il teatro, ossia lo spettacolo, e le
+               opere drammatiche considerate come scritti, come poemi. Essi condannarono l'uno e
+               l'altro: io intendo di prescindere affatto dal primo. Il secondo comprende la poesia
+               tragica e la comica e le altre specie che infine poi si riducono a queste due: delle
+               quali io scelgo di parlare puramente della tragica.</p>
+            <p>
+               <milestone unit="comma" n="10"/>In questa essi hanno esaminate due cose: il modo con
+               cui è stata trattata, e lo hanno detto immorale, provandolo con assai esempj – il
+               modo possibile di trattarla, e hanno detto dover essere naturalmente immorale, poichè
+               il fine che l'arte vi si propone cioè di interessare non si può ottenere che a
+               discapito della morale. Dover quindi la Tragedia essere viziosa secondo l'arte, o
+               dannosa al costume; verrebbe da ciò una conseguenza, che essi non hanno lasciato di
+               dedurre, che più una tragedia sarà perfetta, più sarà immorale. Se la conseguenza
+               fosse giusta nessuno può dubitare che la tragedia non fosse da proscriversi, perchè
+               nessuno vorrà affermare essere da conservarsi cosa che sia opposta allo scopo morale
+               a cui tutto si deve dirizzare.</p>
+            <p><milestone unit="comma" n="11"/>Io spero però di poter provare che questi scrittori
+               hanno errato nell'affermare che non è possibile la Tragedia morale, e che l'errore è
+               venuto in tutti da una stessa origine. Essi hanno osservata una sola scuola
+               drammatica e dagli esempj di questa hanno dedotti tutti i possibili modi di poesia
+               drammatica.</p>
+            <p><milestone unit="comma" n="12"/>Essi hanno supposto che non si poteva interessare in
+               altro modo. Io esporrò il principio colle loro stesse parole, indi m'ingegnerò di
+               provare che esso è arbitrario, che non è necessario far derivare l'interesse
+               drammatico dal principio che essi hanno creduto il solo, e il quale convengo con esso
+               loro nel chiamare immorale. Che anzi il più alto interesse drammatico si ottiene in
+               diverso modo e addurrò esempj che mostrino essere questo genere di tragedia non solo
+               possibile, ma esistente da molto tempo.</p>
+            <p>E come nel leggere i poeti tragici più rinomati coll'intenzione di osservare la parte
+               morale, mi è sembrato scoprire alcune fonti più comuni di immoralità, che non ho
+               trovato accennati da altri, io gli additerò spiegandoli con esempi tolti dai più
+               lodati. Nel che se trovassi il vero potrei ottenere due fini, di indicare a chi
+               scrive drammi certi scogli ove hanno inciampato gli altri e di segnarli ai lettori di
+               quelle opere perchè li possano più facilmente avvertire. Nè agli uni nè agli altri io
+               pretendo far da maestro, ma non è impossibile che essendomi io fermato molto tempo in
+               queste considerazioni v'abbia veduta qualche cosa che può essere sfuggita ad occhi
+               più acuti dei miei.</p>
+         </div>
+         <div type="sezione" n="5" xml:id="sezione5">
+            <head><hi rend="italic">Appunti</hi><lb/> Estratti dalla Lettre a M.<hi rend="sup"
+                  >r</hi> D'Alembert ec.</head>
+            <p><foreign>Il s'agit de savoir si la morale du theatre est nécesseraiment
+                  relacheè...<lb/> La scene en général est un tableau des passions humaines dont
+                  l'original est dans tous les coeurs: mais si le peintre n'avoit soin de flatter
+                  ces passions, le Spectateurs seroient bientôt rebutés, et ne voudroient plus se
+                  voir sous un aspect qui les fît mépriser d'eux-mêmes.<lb/> Un homme sans passions,
+                  ou qui les domineroit toujours, n'y sauroit intéresser personne<lb/> L'effet
+                  général du Spectacle est de renforcer le caractère national, d'augmenter les
+                  inclinations naturelles, et de donner une nouvelle énergie à toutes les
+                  passions<lb/> Je crois pouvoir avancer comme une vérité facile à prouver, en
+                  consequence des précédentes, que le theatre françois, avec les défauts qui lui
+                  restent, est cependant à-peu-pres aussi parfait qu'il peut l'être, soit pour
+                  l'agrément, soit pour l'utilité; et que ces deux avantages y sont dans un rapport
+                  qu'on ne peut troubler sans ôter à l'un plus qu'on ne donneroit à l'autre, ce qui
+                  rendroit ce theatre moins parfait encore. <lb/> À quoi donc aboutit la morale
+                  d'une pareille piece, si ce n'est à encourager des Catilina, et à donner aux
+                  méchans habiles le prix de l'estime publique due aux gens de bien? Mais tel est le
+                  gout qu'il faut flatter sur la scene etc.</foreign></p>
+
+            <div type="sezione" n="6" xml:id="sezione6">
+               <head>Estratti comparativi di <persName ref="#nicole">Nicole</persName> e <persName
+                     ref="#bossuet">Bossuet</persName> con passi di <persName ref="#rousseau">J.J.
+                     Rousseau</persName></head>
+               <table cols="2">
+                  <row>
+                     <cell>
+                        <persName ref="#rousseau">J.J. Rousseau </persName>
+                     </cell>
+                     <cell>
+                        <persName ref="#bossuet"> Bossuet</persName> Tom-7.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <p>
+                           <foreign xml:lang="fra"> et s'il est vrai qu'il faille des amusemens à
+                              l'homme vous conviendrez au moins </foreign> etc.</p>
+                        <lb/>
+                        <p>e cita S. Gio. Gris. Om. 38 in Mat.</p>
+                     </cell>
+                     <cell>
+                        <p>
+                           <foreign xml:lang="fra">On dit qu'il faut trouver un relachement à
+                              l'esprit humain </foreign> etc. Pag.628 </p>
+                        <lb/>
+                        <p> Cita la stessa Omilia. </p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <p><foreign xml:lang="fra"> Quand Moliere corrigea la scène comique, il
+                              attaqua des modes, des ridicules; mais il ne choqua pas pour cela le
+                              gout du public </foreign> etc. </p>
+                     </cell>
+                     <cell>
+                        <p>
+                           <foreign xml:lang="fra"> Ce rigoureux censeur des grands canons, ce grave
+                              reformateur des mines et des expressions de nos precieuses étale etc.
+                              qui n'attaque que le ridicule du monde en lui laissant cependant toute
+                              sa corruption </foreign> pag. 614.</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <p>
+                           <foreign xml:lang="fra"> Quand il seroit vrai qu'on ne peint au theatre
+                              que des passions légitimes </foreign> etc. </p>
+                     </cell>
+                     <cell>
+                        <p>
+                           <foreign xml:lang="fra">La passion ne saisit que son propre objet: la
+                              sensualitè est toujours excitée</foreign> etc. pag. 615 </p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <p>
+                           <foreign xml:lang="fra"> Aussi ne l'accusé-je pas (<hi rend="italic">
+                                 l'acteur </hi>) d'être précisément un trompéur mais de cultiver
+                              pour tout mêtier le talent de tromper les hommes, et de s'exercer à
+                              des habitudes qui ne pouvant être innocentes qu'au theatre ne servent
+                              par tout ailleurs qu'à malfaire </foreign>
+                        </p> . </cell>
+                     <cell>
+                        <p>
+                           <foreign xml:lang="fra">Quand il (Platon) venait à considerer que ces
+                              personnages... êtaient la plupart ou bas ou même vicieux... il
+                              craignait que l'imitation ne les amenât insensiblement à la chose même
+                           </foreign>
+                        </p>
+                     </cell>
+                  </row>
+               </table>
+            </div>
+            <div type="sezione" n="7" xml:id="sezione7">
+               <head>Osservazioni sui Tragici e sugli Storici</head>
+               <p>È stato rimproverato ai tragici francesi ed a <persName ref="#racine">
+                     Racine</persName> in ispecie di aver dato a tutte le epoche da cui hanno tolti
+                  i loro argomenti, le opinioni i caratteri, il colore insomma del tempo in cui essi
+                  scrivevano. Questo rimprovero può con più di giustizia farsi agli storici.</p>
+               <p>Nel secolo scorso cominciò la moda della storia trattata filosoficamente. E nelle
+                  opere del secolo scorso è osservabilissima questa abitudine di trattare la storia.
+                  Tutti gli scrittori più o meno considerano le diverse epoche storiche dal punto di
+                  vista del secolo decimottavo. Tutto ciò che non era allora rilevato è da essi
+                  considerato come irregolare.</p>
+               <p>
+                  <persName ref="#montesquieu">Montesquieu</persName> ha notato questo difetto (
+                     <bibl>Liv. xxx</bibl>) e quello che
+                  è più singolare è ch'egli stesso non n'è esente. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

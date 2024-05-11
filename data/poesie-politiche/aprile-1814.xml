@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Aprile 1814]</title>
+            <author xml:id="AM">Alessandro Manzoni</author>
+            <respStmt>
+               <resp>Codifica</resp>
+               <persName xml:id="BN">Beatrice Nava</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione</resp>
+               <persName xml:id="FF">Francesca Giuseppa Ferraro</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Manzoni Online: carte, libri, edizioni, strumenti;</publisher>
+            <pubPlace>Università di Bologna</pubPlace>
+            <date>2021</date>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico.
+                  Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Inni sacri e odi civili</title>
+               <title type="parte">[Aprile 1814]</title>
+               <author ref="#AM">Manzoni, Alessandro</author>
+               <editor xml:id="PF">Pierantonio Frare</editor>
+               <publisher>Centro Nazionale Studi Manzoniani</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>2017</date>
+               <note>In: Edizione nazionale ed europea delle opere di Alessandro Manzoni: testi
+                  criticamente riveduti e commentati, diretta da Giancarlo Vigorelli; Milano: Centro
+                  nazionale studi manzoniani; vol.1</note>
+               <idno type="ISBN">9788831906005</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>La codifica dei testi manzoniani per la piattaforma ManzoniOnline si inserisce
+               nell'ambito del progetto PRIN 2015 FN4ZSN</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+  <text>
+      <body>
+            <head>[APRILE 1814]<lb/> CANZONE</head>
+            <opener rend="italic">22 Aprile 1814</opener>
+            <lg>
+               <l>Fin che il ver fu delitto, e la menzogna</l>
+               <l>corse gridando minacciosa il ciglio:</l>
+               <l>Io son sola che parlo, io sono il vero,</l>
+               <l>tacque il mio verso, e non mi fu vergogna,</l>
+               <l>non fu vergogna, anzi gentil consiglio:</l>
+               <l>che non è sola lode esser sincero,</l>
+               <l>né rischio è bello senza nobil fine.</l>
+               <l>Or che il superbo morso</l>
+               <l>ad onesta parola è tolto alfine,</l>
+               <l>ogni compresso affetto al labro è corso:</l>
+               <l>or s'udrà ciò, che sotto il giogo antico</l>
+               <l>sommerso appena esser potea discorso</l>
+               <l>al cauto orecchio di provato amico.</l>
+            </lg>
+         <lg>
+               <l>Toglier lo scudo de le Leggi antique</l>
+               <l>e le da lor create, e il sacro patto</l>
+               <l>mutar come si muta un vestimento,</l>
+               <l>o non mutate non serbarle, e inique</l>
+               <l>farle serbar benché secrete, e in atto</l>
+               <l>di chi pensa, tacendo, al tradimento</l>
+               <l>e novi statuir padri a la Legge;</l>
+               <l>e perché amici ai buoni,</l>
+               <l>sperderli a guisa di spregiato gregge;</l>
+               <l>questi de' salvatori erano i doni;</l>
+               <l>questo dicean fondarne a civil vita:</l>
+               <l>qual se l'Italia al chiamar d'esti Anfioni</l>
+               <l>fosse dei boschi, e de le tane uscita.</l>
+            </lg>
+         <lg>
+               <l>Anzi fatta da lor donna e reina</l>
+               <l>la salutare, o fosse frode, o scherno,</l>
+               <l>d'armi reina, io dico, e di consigli:</l>
+               <l>essa che ai piè de la imperante inchina</l>
+               <l>stavasi, e fea di sue ricchezze eterno</l>
+               <l>censo a gli estrani, e de gli estrani ai figli;</l>
+               <l>che regger si dovea con l'altrui cenno;</l>
+               <l>che ogni anno il suo tesoro</l>
+               <l>su l'avara ponea lance di Brenno.</l>
+               <l>È ver, tributo nol dicean costoro,</l>
+               <l>men turpe nome il vincitor foggiava;</l>
+               <l>ma che monta per Dio? terra che l'oro</l>
+               <l>porta costretta a lo straniero, è schiava.</l>
+            </lg>
+         <lg>
+               <l>E svelti i figli ai genitor dal fianco;</l>
+               <l>e aprir loro le porte, ed esser padre</l>
+               <l>delitto, e quasi anco i sospir nocenti;</l>
+               <l>e tratti in ceppi, e noverati a branco,</l>
+               <l>spinti ad offesa d'innocenti squadre</l>
+               <l>con cui meglio starieno abbracciamenti.</l>
+               <l>Oh giorni! oh campi che nomar non oso,</l>
+               <l>deh per chi mai scorrea</l>
+               <l>quel sangue onde il terren vostro è famoso?</l>
+               <l>o madri orbate, o spose, a chi crescea</l>
+               <l>nel sen custode ogni viril portato?</l>
+               <l>Era tristezza esser feconde, e rea</l>
+               <l>novella il dirvi: un pargoletto è nato.</l>
+            </lg>
+         <lg>
+               <l>Né gente or voglio cagionar dei mali</l>
+               <l>che lo stesso bevea calice d'ira,</l>
+               <l>né infonder tosco ne le piaghe aperte;</l>
+               <l>ma dico sol ch'è da pensar di quali</l>
+               <l>strette il perdono del Signor ne tira,</l>
+               <l>perché sien maggior grazie a lui riferte.</l>
+               <l>Che quando eran più l'onte aspre ed estreme,</l>
+               <l>e al veder nostro estinto</l>
+               <l>ogni raggio parea d'umana speme,</l>
+               <l>allor fuor de la nube arduo ed accinto</l>
+               <l>tuonando, il braccio salvator s'è mostro:</l>
+               <l>dico che Iddio coi ben pugnanti ha vinto,</l>
+               <l>che a ragion si rallegra il popol nostro.</l>
+            </lg>
+         <lg>
+               <l>Bel mirar da le inospite latebre</l>
+               <l>giovin raminghi al sospirato tetto</l>
+               <l>correr securi, ed a le braccia pie;</l>
+               <l>e quei che in ferri astrinse ed in tenebre</l>
+               <l>l'odio potente, un motto, od un sospetto</l>
+               <l>ai soavi tornar colloqui, e al die;</l>
+               <l>e un favellar di gioia e di speranza,</l>
+               <l>e su le fronti scólta</l>
+               <l>de' concordi pensier l'alma fidanza;</l>
+               <l>e il nobil fior de' vigorosi a scolta</l>
+               <l>durar ne l'armi, e vigilar, mostrando</l>
+               <l>con che acceso voler la patria ascolta</l>
+               <l>quando libero e vero è il suo dimando,</l>
+            </lg>
+         <lg>
+               <l>e quei che a dir le sue ragioni or chiama</l>
+               <l>lunge da basso studio e da contesa,</l>
+               <l>parlar per lei com'ella è desiosa;</l>
+               <l>e l'antica far chiara itala brama,</l>
+               <l>che sarà, spero, a quei possenti intesa</l>
+               <l>cui par che piaccia ogni più nobil cosa.</l>
+               <l>Vedi il drappello che al governo è sopra</l>
+               <l>animoso e guardingo</l>
+               <l>al ben di tutti aver rivolta ogni opra,</l>
+               <l>e i ministri di Dio dal mite aringo</l>
+               <l>nel dritto calle ragunar la greggia.</l>
+               <l>Molte e gran cose in picciol fascio io stringo;</l>
+               <l>ma qual parlar sì belle opre pareggia?</l>
+            </lg>
+            <closer rend="italic">12 Maggio 1814</closer>
+      </body>
+  </text>
+</TEI>

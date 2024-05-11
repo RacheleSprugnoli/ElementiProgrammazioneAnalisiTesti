@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Il proclama di Rimini. Frammento di canzone. Aprile 1815</title>
+            <author xml:id="AM">Alessandro Manzoni</author>
+            <respStmt>
+               <resp>Codifica</resp>
+               <persName xml:id="BN">Beatrice Nava</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione</resp>
+               <persName xml:id="FF">Francesca Giuseppa Ferraro</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Manzoni Online: carte, libri, edizioni, strumenti;</publisher>
+            <pubPlace>Università di Bologna</pubPlace>
+            <date>2021</date>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico.
+                  Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Inni sacri e odi civili</title>
+               <title type="parte">Il proclama di Rimini. Frammento di canzone. Aprile 1815.</title>
+               <author ref="#AM">Manzoni, Alessandro</author>
+               <editor xml:id="PF">Pierantonio Frare</editor>
+               <publisher>Centro Nazionale Studi Manzoniani</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>2017</date>
+               <note>In: Edizione nazionale ed europea delle opere di Alessandro Manzoni: testi
+                  criticamente riveduti e commentati, diretta da Giancarlo Vigorelli; Milano: Centro
+                  nazionale studi manzoniani; vol.1</note>
+               <idno type="ISBN">9788831906005</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>La codifica dei testi manzoniani per la piattaforma ManzoniOnline si inserisce
+               nell'ambito del progetto PRIN 2015 FN4ZSN</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+  <text>
+      <body>
+            <head> IL PROCLAMA DI RIMINI<lb/> FRAMMENTO DI CANZONE<lb/> APRILE 1815</head>
+            <lg>
+               <l>O delle imprese alla più degna accinto,</l>
+               <l>signor che la parola hai proferita,</l>
+               <l>che tante etadi indarno Italia attese;</l>
+               <l>ah! quando un braccio le teneano avvinto</l>
+               <l>genti che non vorrian toccarla unita,</l>
+               <l>e da lor scissa la pascean d'offese;</l>
+               <l>e l'ingorde udivam lunghe contese</l>
+               <l>dei re tutti anelanti a farle oltraggio;</l>
+               <l>in te sol uno un raggio</l>
+               <l>di nostra speme ancor vivea, pensando</l>
+               <l>ch'era in Italia un suol senza servaggio,</l>
+               <l>ch'ivi slegato ancor vegliava un brando.</l>
+            </lg>
+            <lg>
+               <l>Sonava intanto d'ogni parte un grido,</l>
+               <l>libertà delle genti e gloria e pace!</l>
+               <l>Ed aperto d'Europa era il convito;</l>
+               <l>e questa donna di cotanto lido,</l>
+               <l>questa antica, gentil, donna pugnace</l>
+               <l>degna non la tenean dell'alto invito:</l>
+               <l>essa in disparte, e posto al labbro il dito,</l>
+               <l>dovea il fato aspettar dal suo nemico,</l>
+               <l>come siede il mendico</l>
+               <l>alla porta del ricco in sulla via;</l>
+               <l>alcun non passa che lo chiami amico,</l>
+               <l>e non gli far dispetto è cortesia.</l>
+            </lg>
+            <lg>
+               <l>Forse infecondo di tal madre or langue</l>
+               <l>il glorioso fianco? o forse ch'ella</l>
+               <l>del latte antico oggi le vene ha scarse?</l>
+               <l>o figli or nutre, a cui per essa il sangue</l>
+               <l>donar sia grave? o tali a cui più bella</l>
+               <l>pugna sembri tra loro ingiuria farse?</l>
+               <l>Stolta bestemmia! eran le forze sparse,</l>
+               <l>e non le voglie; e quasi in ogni petto</l>
+               <l>vivea questo concetto:</l>
+               <l>liberi non sarem se non siam uni;</l>
+               <l>ai men forti di noi gregge dispetto,</l>
+               <l>fin che non sorga un uom che ci raduni.</l>
+            </lg>
+            <lg>
+               <l>Egli è sorto, per Dio! Sì, per Colui</l>
+               <l>che un dì trascelse il giovinetto ebreo</l>
+               <l>che del fratello il percussor percosse;</l>
+               <l>e fattol duce e salvator de' sui,</l>
+               <l>degli avari ladron sul capo reo</l>
+               <l>l'ardua furia soffiò dell'onde rosse;</l>
+               <l>per quel Dio che talora a stranie posse,</l>
+               <l>certo in pena, il valor d'un popol trade;</l>
+               <l>ma che l'inique spade</l>
+               <l>frange una volta, e gli oppressor confonde;</l>
+               <l>e all'uom che pugna per le sue contrade</l>
+               <l>l'ira e la gioia de' perigli infonde.</l>
+            </lg>
+            <lg>
+               <l>Con Lui, signor, dell'itala fortuna</l>
+               <l>le sparse verghe raccorrai da terra,</l>
+               <l>e un fascio ne farai nella tua mano.</l>
+            </lg>
+         <!-- gap? <.................................. -->
+      </body>
+  </text>
+</TEI>

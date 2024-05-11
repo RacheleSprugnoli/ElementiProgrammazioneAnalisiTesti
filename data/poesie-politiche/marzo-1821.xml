@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Marzo 1821</title>
+            <author xml:id="AM">Alessandro Manzoni</author>
+            <respStmt>
+               <resp>Codifica</resp>
+               <persName xml:id="BN">Beatrice Nava</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione</resp>
+               <persName xml:id="FF">Francesca Giuseppa Ferraro</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Manzoni Online: carte, libri, edizioni, strumenti;</publisher>
+            <pubPlace>Università di Bologna</pubPlace>
+            <date>2021</date>
+            <availability>
+               <p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico.
+                  Ogni uso commerciale è vietato</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Inni sacri e odi civili</title>
+               <title type="parte">Marzo 1821</title>
+               <author ref="#AM">Manzoni, Alessandro</author>
+               <editor xml:id="PF">Pierantonio Frare</editor>
+               <publisher>Centro Nazionale Studi Manzoniani</publisher>
+               <pubPlace>Milano</pubPlace>
+               <date>2017</date>
+               <note>In: Edizione nazionale ed europea delle opere di Alessandro Manzoni: testi
+                  criticamente riveduti e commentati, diretta da Giancarlo Vigorelli; Milano: Centro
+                  nazionale studi manzoniani; vol.1</note>
+               <idno type="ISBN">9788831906005</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>La codifica dei testi manzoniani per la piattaforma ManzoniOnline si inserisce
+               nell'ambito del progetto PRIN 2015 FN4ZSN</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+  <text>
+      <body>
+            <head>MARZO 1821<lb/> ODE</head>
+            <opener>ALLA ILLUSTRE MEMORIA<lb/> DI<lb/> TEODORO KOERNER<lb/> POETA E SOLDATO<lb/> DELLA INDIPENDENZA
+               GERMANICA<lb/> MORTO SUL CAMPO DI LIPSIA<lb/> IL GIORNO XVIII D'OTTOBRE MDCCCXIII<lb/> NOME CARO
+               A TUTTI I POPOLI<lb/> CHE COMBATTONO PER DIFENDERE<lb/> O PER RICONQUISTARE<lb/> UNA
+               PATRIA
+            </opener>
+               <lg>
+                  <l>Soffermati sull'arida sponda,</l>
+                  <l>volti i guardi al varcato Ticino,</l>
+                  <l>tutti assorti nel novo destino,</l>
+                  <l>certi in cor dell'antica virtù,</l>
+                  <l>han giurato: Non fia che quest'onda</l>
+                  <l>scorra più tra due rive straniere:</l>
+                  <l>non fia loco ove sorgan barriere</l>
+                  <l>tra l'Italia e l'Italia, mai più!</l>
+               </lg>
+               <lg>
+                  <l>L'han giurato: altri forti a quel giuro</l>
+                  <l>rispondean da fraterne contrade,</l>
+                  <l>affilando nell'ombra le spade</l>
+                  <l>che or levate scintillano al sol.</l>
+                  <l>Già le destre hanno strette le destre;</l>
+                  <l>già le sacre parole son porte:</l>
+                  <l>O compagni sul letto di morte,</l>
+                  <l>o fratelli su libero suol.</l>
+               </lg>
+               <lg>
+                  <l>Chi potrà della gemina Dora,</l>
+                  <l>della Bormida al Tanaro sposa,</l>
+                  <l>del Ticino e dell'Orba selvosa</l>
+                  <l>scerner l'onde confuse nel Po;</l>
+                  <l>chi stornargli del rapido Mella</l>
+                  <l>e dell'Oglio le miste correnti,</l>
+                  <l>chi ritogliergli i mille torrenti</l>
+                  <l>che la foce dell'Adda versò,</l>
+               </lg>
+               <lg>
+                  <l>quello ancora una gente risorta</l>
+                  <l>potrà scindere in volghi spregiati,</l>
+                  <l>e a ritroso degli anni e dei fati,</l>
+                  <l>risospingerla ai prischi dolor:</l>
+                  <l>una gente che libera tutta,</l>
+                  <l>o fia serva tra l'Alpe ed il mare;</l>
+                  <l>una d'arme, di lingua, d'altare,</l>
+                  <l>di memorie, di sangue e di cor.</l>
+               </lg>
+               <lg>
+                  <l>Con quel volto sfidato e dimesso,</l>
+                  <l>con quel guardo atterrato ed incerto,</l>
+                  <l>con che stassi un mendico sofferto</l>
+                  <l>per mercede nel suolo stranier,</l>
+                  <l>star doveva in sua terra il Lombardo;</l>
+                  <l>l'altrui voglia era legge per lui;</l>
+                  <l>il suo fato, un segreto d'altrui;</l>
+                  <l>la sua parte, servire e tacer.</l>
+               </lg>
+               <lg>
+                  <l>O stranieri, nel proprio retaggio</l>
+                  <l>torna Italia, e il suo suolo riprende;</l>
+                  <l>o stranieri, strappate le tende</l>
+                  <l>da una terra che madre non v'è.</l>
+                  <l>Non vedete che tutta si scote,</l>
+                  <l>dal Cenisio alla balza di Scilla?</l>
+                  <l>non sentite che infida vacilla</l>
+                  <l>sotto il peso de' barbari piè?</l>
+               </lg>
+               <lg>
+                  <l>O stranieri! sui vostri stendardi</l>
+                  <l>sta l'obbrobrio d'un giuro tradito;</l>
+                  <l>un giudizio da voi proferito</l>
+                  <l>v'accompagna all'iniqua tenzon;</l>
+                  <l>voi che a stormo gridaste in quei giorni:</l>
+                  <l>Dio rigetta la forza straniera;</l>
+                  <l>ogni gente sia libera, e pera</l>
+                  <l>della spada l'iniqua ragion.</l>
+               </lg>
+               <lg>
+                  <l>Se la terra ove oppressi gemeste</l>
+                  <l>preme i corpi de' vostri oppressori,</l>
+                  <l>se la faccia d'estranei signori</l>
+                  <l>tanto amara vi parve in quei dì;</l>
+                  <l>chi v'ha detto che sterile, eterno</l>
+                  <l>saria il lutto dell'itale genti?</l>
+                  <l>chi v'ha detto che ai nostri lamenti</l>
+                  <l>saria sordo quel Dio che v'udì?</l>
+               </lg>
+               <lg>
+                  <l>Sì, quel Dio che nell'onda vermiglia</l>
+                  <l>chiuse il rio che inseguiva Israele,</l>
+                  <l>quel che in pugno alla maschia Giaele</l>
+                  <l>pose il maglio, ed il colpo guidò;</l>
+                  <l>quel che è Padre di tutte le genti,</l>
+                  <l>che non disse al Germano giammai:</l>
+                  <l>Va, raccogli ove arato non hai;</l>
+                  <l>spiega l'ugne; l'Italia ti do.</l>
+               </lg>
+               <lg>
+                  <l>Cara Italia! dovunque il dolente</l>
+                  <l>grido uscì del tuo lungo servaggio;</l>
+                  <l>dove ancor dell'umano lignaggio</l>
+                  <l>ogni speme deserta non è;</l>
+                  <l>dove già libertade è fiorita,</l>
+                  <l>dove ancor nel segreto matura,</l>
+                  <l>dove ha lacrime un'alta sventura</l>
+                  <l>non c'è cor che non batta per te.</l>
+               </lg>
+               <lg>
+                  <l>Quante volte sull'Alpe spiasti</l>
+                  <l>l'apparir d'un amico stendardo!</l>
+                  <l>quante volte intendesti lo sguardo</l>
+                  <l>ne' deserti del duplice mar!</l>
+                  <l>Ecco alfin dal tuo seno sboccati,</l>
+                  <l>stretti intorno a' tuoi santi colori,</l>
+                  <l>forti, armati de' propri dolori,</l>
+                  <l>i tuoi figli son sorti a pugnar.</l>
+               </lg>
+               <lg>
+                  <l>Oggi, o forti, sui volti baleni</l>
+                  <l>il furor delle menti segrete:</l>
+                  <l>per l'Italia si pugna, vincete!</l>
+                  <l>il suo fato sui brandi vi sta.</l>
+                  <l>O risorta per voi la vedremo</l>
+                  <l>al convito de' popoli assisa,</l>
+                  <l>o più serva, più vil, più derisa,</l>
+                  <l>sotto l'orrida verga starà.</l>
+               </lg>
+               <lg>
+                  <l>Oh giornate del nostro riscatto!</l>
+                  <l>oh dolente per sempre colui</l>
+                  <l>che da lunge, dal labbro d'altrui,</l>
+                  <l>come un uomo straniero, le udrà!</l>
+                  <l>che a' suoi figli narrandole un giorno</l>
+                  <l>dovrà dir sospirando: io non c'era;</l>
+                  <l>che la santa vittrice bandiera</l>
+                  <l>salutata quel dì non avrà.</l>
+               </lg>
+      </body>
+  </text>
+</TEI>
