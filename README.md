@@ -22,4 +22,4 @@ Altri riferimenti sono riportati nelle slide.
 - Lezione 9, spaCy: [pratica](https://colab.research.google.com/drive/1z-5GgFy0gTkBOGzypEK3Fqo5Qpt62Rf4?usp=sharing), [soluzione esercizi](https://colab.research.google.com/drive/1RyCO-ZvBzPwxZGpSLfie8XfesCWIO2aA?usp=sharing);
 - Lezione 10, NLTK (solo analisi lessicali): [pratica](https://colab.research.google.com/drive/1fGu-EALK2I_Y6zawp4LobKski_RziE2Q?usp=sharing), [soluzione esercizi](https://colab.research.google.com/drive/1BgdJqydBjf229NWaU4ru5lGx_4C8-PEp?usp=sharing).
 
-I file usati nelle esercitazioni si trovano nella cartella *data*.
+I file usati nelle esercitazioni si trovano nella cartella *data*. I file relativi a Manzoni sono stati presi dal progetto ["Manzoni Online"](https://www.alessandromanzoni.org). I testi della Commedia e del Canzoniere sono tratti da [Biblioteca Italiana](http://www.bibliotecaitaliana.it). 
