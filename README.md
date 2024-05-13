@@ -10,7 +10,7 @@ Questo repository contiene i materiali che ho usato nell'insegnamento "Elementi 
 
 Altri riferimenti sono riportati nelle slide.
 
-**Puntatori alla esercitazioni.**
+**Puntatori alla esercitazioni:**
 - Lezione 1, introduzione e terminologia: [pratica](https://colab.research.google.com/drive/1DFJSuo2mRwXG-TP_c26oQAyk7xn3Gttb?usp=sharing), [soluzione esercizi](https://colab.research.google.com/drive/1lsYRxlWNXVIDuDHBM4QEZX1nXsof3PNY?usp=sharing);
 - Lezione 2, variabili e tipi di dato: [soluzione esercizi](https://colab.research.google.com/drive/1COPkr0KtaRpFQxrnrsJ_G4h1VL48ZSa5?usp=sharing);
 - Lezione 3, libreria standard (math, os, os.path e re): [pratica](https://colab.research.google.com/drive/1IGgcV2QDp2S320uYCtHFDJ06TCT7a2x7?usp=sharing), [soluzione esercizi](https://colab.research.google.com/drive/1s7YXYhxc6ICwU_d1TJd-5Eih0K0DLwfA?usp=sharing);
